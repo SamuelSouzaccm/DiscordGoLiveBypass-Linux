@@ -1,4 +1,5 @@
-# O binario e distribuido pela aba Releases, nao versionado aqui.
+# O binario do Windows e distribuido pela aba Releases, nao versionado aqui.
+# (No fork Linux, o binario e o AppImage sao versionados para o clone ja sair usavel.)
 *.exe
 
 # Restos do Windows
@@ -8,3 +9,7 @@ desktop.ini
 # Configuracao de IDE: e da maquina de quem edita, nao do projeto.
 .idea/
 .vscode/
+
+# Lixo do build do AppImage (ferramenta baixada e AppDir temporario)
+appimagetool.AppImage
+DiscordGoLiveBypass.AppDir/
